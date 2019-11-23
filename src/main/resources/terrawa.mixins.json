@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "package": "net.cuddlebat.terrawa.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+	"ProjectileMixin",
+	"BowMixin",
+	"PlayerMixin",
+	"LivingEntityMixin",
+	"ItemEntityMixin",
+	"FireballGoalMixin",
+	"OverworldGenMixin",
+	"OnVanillaEnchRegisterMixin",
+	"EnchTableMixin",
+	"ContainerMixin",
+	"PotionMixin",
+	"FishingMixin",
+	"DefaultBiomeFeaturesMixin",
+	"ChunkGeneratorMixin",
+	"ThreadedAnvilChunkStorageMixin",
+	"BlazeMixin",
+	"ItemStackMixin",
+	"DamageEnchantmentMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

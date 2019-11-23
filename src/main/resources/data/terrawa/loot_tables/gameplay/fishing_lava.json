@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "quality": -2,
+          "name": "terrawa:gameplay/fishing/junk_lava"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "quality": 2,
+          "name": "terrawa:gameplay/fishing/treasure_lava"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 85,
+          "quality": -1,
+          "name": "terrawa:gameplay/fishing/fish_lava"
+        }
+      ]
+    }
+  ]
+}

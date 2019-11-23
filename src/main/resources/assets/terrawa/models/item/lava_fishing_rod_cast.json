@@ -1,0 +1,6 @@
+{
+    "parent": "terrawa:item/lava_fishing_rod",
+    "textures": {
+        "layer0": "terrawa:item/lava_fishing_rod_cast"
+    }
+}

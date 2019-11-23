@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "terrawa",
+  "version": "${version}",
+
+  "name": "Subterranean Awakening",
+  "description": "Currently an absolute WIP but intended to be a huge overhaul of progressions, enchantments, and world gen.",
+  "authors": [
+    "des-cuddlebat"
+  ],
+  "contact": {
+    "homepage": "https://cuddlebat.net/",
+    "sources": "https://github.com/des-cuddlebat/subterranean-awakening"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/terrawa/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.cuddlebat.terrawa.MainMod"
+    ],
+    "client": [
+      "net.cuddlebat.terrawa.ClientMod"
+    ]
+  },
+  "mixins": [
+    "terrawa.mixins.json",
+    {
+      "config": "terrawa.client-mixins.json",
+      "environment": "client"
+	}
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.4.0",
+    "fabric": "*"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SSS",
+    "S S",
+    "FBF"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:string"
+    },
+    "F": {
+      "item": "terrawa:venomous_fang"
+    },
+    "B": {
+      "item": "terrawa:mossy_bone"
+    }
+  },
+  "result": {
+    "item": "terrawa:mossy_necklace"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "terrawa:blazefish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "terrawa:prismatic_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 20,
+          "name": "terrawa:codper"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "terrawa:obsidian_fish"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "terrawa:molten_fish"
+        }
+      ]
+    }
+  ]
+}

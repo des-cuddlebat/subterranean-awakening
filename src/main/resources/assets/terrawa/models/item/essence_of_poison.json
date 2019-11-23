@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "terrawa:item/esseence_of_poison"
+  }
+}
